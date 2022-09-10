@@ -24,8 +24,9 @@ Enjoy.
 
 
 function sortMyString(s){
-    let odd = '';
     let even = '';
+    let odd = '';
+    //for in loop, returns index. Use variable[index] to get the word in that index.
     for(let word in s){
         if(word % 2 === 0){
             even += s[word]
