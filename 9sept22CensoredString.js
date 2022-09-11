@@ -53,3 +53,6 @@ function uncensor(infected, discovered){
         uncensored = uncensored.replace('*', discovered[i])
     } return uncensored
 }
+
+// uncensored.filter('*', discovered[i]
+// })
