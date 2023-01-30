@@ -9,6 +9,7 @@
 const quarterOf = (month : Number) => {
   // four qs in a month
   //figure out what q is month closest to, return that quarter
+  
   let quarters = {
     1: [1,2,3],
       2:[4,5,6],
@@ -20,5 +21,6 @@ const quarterOf = (month : Number) => {
       return Number(el)
     }
   }
-  
+ //SOL 2:
+    // return Math.ceil(month/3)
 }
