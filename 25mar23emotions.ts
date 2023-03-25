@@ -43,7 +43,14 @@ Notes:
           'T_T': 5
         }
         
-        return arr.sort((a,b)=>{
-          return order === true ? emotions[a] - emotions[b] : emotions[b] - emotions[a]
-        })
+        return arr.sort((a,b)=>
+          order === true ? emotions[a] - emotions[b] : emotions[b] - emotions[a]
+        )
+
+
+        
+        //NOTE that here, you have to use return if using {}, whereas no return in above conditional.
+        // return arr.sort((a,b)=>{
+        //   order === true ? emotions[a] - emotions[b] : emotions[b] - emotions[a]
+        // })
       }
